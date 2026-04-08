@@ -1,0 +1,14 @@
+{
+  "required": true,
+  "package": "wtf.auction.helper.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "mixins": [
+    "ItemStackTooltipMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  },
+  "overwrites": {
+    "requireAnnotations": true
+	}
+}
